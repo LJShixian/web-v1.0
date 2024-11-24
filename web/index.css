@@ -1,0 +1,145 @@
+.a {
+    position: absolute;
+   left: 5vw;
+}
+.nav>* {
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(242, 245, 247);
+    position: absolute;
+   top: 4vh;
+}
+
+
+
+.b {
+    position: absolute;
+    left: 20vw;
+}
+.c {
+    position: absolute;
+    left: 35vw;
+}
+.d {
+    position: absolute;
+    right: 5vw;
+}
+.e {
+    position: absolute;
+    left:50vw ;
+}
+.f {
+    position: absolute;
+    left:65vw ;
+}
+.nav>*::after {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    bottom: -1vh;
+    width: 0;
+    height: 1px;
+    background-color: white ;
+    transition: width 0.3s ease; /* 动画过渡效果 */
+}
+/* 鼠标悬停时展开下划线 */
+.nav>*:hover::after {
+    width: 100%;
+}
+#nav {
+    position: fixed;
+}
+.L1 {
+    width: 98.2vw;
+    height: 95vh;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 9.8vh;
+
+  position: relative;
+  left: -30vh;
+  clip-path: polygon(0% 0%,80% 0%,45% 95%,0% 95%);
+}
+.Ltxt1 {
+    position: absolute;
+    top: 30vh;
+    right: 8vw;
+     width: 30vw;
+     height: 50vh;
+}
+.Lt2 {
+    line-height: 2;
+}
+.F1 {
+    width: 68.2vw;
+    height: 95vh;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 8vh;
+
+  position: relative;
+  left: 60vh;
+  clip-path: polygon(40% 0%,100% 0%,100% 95%,5% 95% );
+}
+.Ftxt {
+    position: absolute;
+    top: 115vh;
+    left: 8vw;
+    width: 30vw;
+    height: 50vh;
+}
+.Ft2 {
+    line-height: 2;
+}
+.P1 {
+    width: 68.2vw;
+    height: 95vh;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 8vh;
+
+  position: relative;
+  left: 60vh;
+  clip-path: polygon(5% 0%, 100% 0%, 100% 95% , 40% 95%);
+}
+.Pt2 {
+    line-height: 2;
+}
+.Ptxt {
+    position: absolute;
+    top: 210vh;
+    left: 8vw;
+    width: 30vw;
+    height: 50vh;
+}
+.B1 {
+    width: 98.2vw;
+    height: 95vh;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 8vh;
+
+  position: relative;
+  left: -30vh;
+  clip-path: polygon(0% 0%,50% 0%,75% 95%,0% 95%);
+}
+.Bt2 {
+    line-height: 2;
+}
+.Btxt {
+    position: absolute;
+    top: 300vh;
+    right: 8vw;
+     width: 30vw;
+     height: 50vh;
+}
+.body {
+    background-color: whitesmoke;
+   
+}
+
+

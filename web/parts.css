@@ -1,0 +1,468 @@
+.a {
+    position: absolute;
+   left: 5vw;
+}
+.nav>* {
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(242, 245, 247);
+    position: absolute;
+   top: 4vh;
+}
+.b {
+    position: absolute;
+    left: 20vw;
+}
+.c {
+    position: absolute;
+    left: 35vw;
+}
+.d {
+    position: absolute;
+    right: 5vw;
+}
+.e {
+    position: absolute;
+    left:50vw ;
+}
+.f {
+    position: absolute;
+    left:65vw ;
+}
+.b1 {
+    background-color: white;
+    width: 100vw;
+    height: 89vh;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left:0 ;
+    top: 11vh;
+ 
+}
+.b2 {
+    background-color: black ;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left:0 ;
+    top: 100vh;
+    
+}
+.b3 {
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left:0 ;
+    top: 200vh;
+ 
+}
+.b4 {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left:0 ;
+    top: 300vh;
+   
+}
+.b5 {
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left:0 ;
+    top: 400vh;
+
+}
+.b6 {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left:0 ;
+    top: 500vh;
+  
+}
+.b7 {
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left:0 ;
+    top: 600vh;
+ 
+}
+.i1 {
+    position: absolute;
+    right:0vw ;
+    top: 0vh;
+    width: 50vw;
+    height: 89vh;
+}
+.img1 {
+    width: 50vw;
+    height: 89vh;
+}
+.t1-1 {
+    position: absolute;
+    top: 3vh;
+    left: 12vw;
+    font-size: 60px;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 30vw;
+    height: 40vh;
+}
+.t1-2 {
+    position: absolute;
+    top: 30vh;
+    left: 11vw;
+}
+.t1-3 {
+    position: absolute;
+    top: 58vh;
+    left: 1vw;
+    line-height: 2;
+}
+.t1-4 {
+    position: absolute;
+    top: 58vh;
+    left: 28vw;
+    line-height: 2;
+}
+.line1 {
+    border-right: 2px solid black;
+    position: absolute;
+    top: 61vh;
+    left: 6vw;
+    width: 20vw;
+    height: 15vh;
+}
+.i2 {
+    width: 50vw;
+    height: 100vh;
+    position: absolute;
+    left:0vw;
+    top: 0vh;
+    justify-content: center;
+}
+.img2 {
+   object-fit: cover;
+   width: 100%;
+   height: 100%;
+}
+.t2 {
+    color: white;
+}
+.t2-1 {
+    position: absolute;
+    top: 3vh;
+    right: 5vw;
+    font-size: 60px;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 30vw;
+    height: 40vh;
+}
+.t2-2 {
+    position: absolute;
+    top: 30vh;
+    right: 9vw;
+}
+.t2-3 {
+    position: absolute;
+    top: 51vh;
+    right: 4vw;
+    line-height: 2;
+}
+.t2-4 {
+    position: absolute;
+    top: 70vh;
+    right: 15vw;
+    line-height: 2;
+}
+.line2 {
+    border-top: 2px solid white;
+    width: 40vw;
+    height: 1vh;
+    position: absolute;
+    top: 70vh;
+    right: 5vw;
+}
+.i3 {
+    position: absolute;
+    right:0vw ;
+    top: 0vh;
+    width: 50vw;
+    height: 100vh;
+    justify-content: center;
+}
+.img3 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.t3-1 {
+    position: absolute;
+    top: 3vh;
+    left: 12vw;
+    font-size: 60px;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 30vw;
+    height: 40vh;
+}
+.t3-2 {
+    position: absolute;
+    top: 30vh;
+    left: 8vw;
+}
+.t3-3 {
+    position: absolute;
+    top: 54vh;
+    left: 8vw;
+    line-height: 2;
+}
+.t3-4 {
+    position: absolute;
+    top: 72vh;
+    left: 8vw;
+    line-height: 2;
+}
+.line3 {
+    border-top: 2px solid black;
+    width: 33vw;
+    height: 1vh;
+    position: absolute;
+    top: 73vh;
+    left: 7.5vw;
+}
+.i4 {
+    width: 50vw;
+    height: 100vh;
+    position: absolute;
+    left:0vw;
+    top: 0vh;
+   justify-content: center;
+}
+.img4 {
+    width: 100%;
+    height: 100%;
+   object-fit: cover;
+}
+.t4 {
+    color: white;
+}
+.t4-1 {
+    position: absolute;
+    top: 5vh;
+    right: 14vw;
+    font-size: 60px;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 30vw;
+    height: 40vh;
+}
+.t4-2 {
+    position: absolute;
+    top: 32vh;
+    right: 13vw;
+}
+.t4-3 {
+    position: absolute;
+    top: 52vh;
+    right: 4vw;
+    line-height: 2;
+}
+.t4-4 {
+    position: absolute;
+    top: 75vh;
+    right: 16.9vw;
+    line-height: 2;
+}
+.line4 {
+    border-top: 2px solid white;
+    width: 40vw;
+    height: 1vh;
+    position: absolute;
+    top: 76vh;
+    right: 5vw;
+}
+.i5 {
+    position: absolute;
+    right:0vw ;
+    top: 0vh;
+    width: 50vw;
+    height: 100vh;
+}
+.img5 {
+    width: 50vw;
+    height: 100vh;
+}
+.t5 {
+    color: black;
+}
+.t5-1 {
+    position: absolute;
+    top: 3vh;
+    left: 8vw;
+    font-size: 60px;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 30vw;
+    height: 40vh;
+}
+.t5-2 {
+    position: absolute;
+    top: 30vh;
+    left: 8vw;
+}
+.t5-3 {
+    position: absolute;
+    top: 54vh;
+    left: 8vw;
+    line-height: 2;
+}
+.t5-4 {
+    position: absolute;
+    top: 72vh;
+    left: 8vw;
+    line-height: 2;
+}
+.line5 {
+    border-top: 2px solid black;
+    width: 33vw;
+    height: 1vh;
+    position: absolute;
+    top: 73vh;
+    left: 7.5vw;
+}
+.i6 {
+    position: absolute;
+    left:0vw ;
+    top: 0vh;
+    width: 50vw;
+    height: 100vh;
+    justify-content: left;
+}
+.img6 {
+    width: 100%;
+    height: 100%;
+   object-fit: cover;
+}
+.t6 {
+    color: white;
+}
+.t6-1 {
+    position: absolute;
+    top: 5vh;
+    right: 6vw;
+    font-size: 60px;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 30vw;
+    height: 40vh;
+}
+.t6-2 {
+    position: absolute;
+    top: 32vh;
+    right: 15vw;
+}
+.t6-3 {
+    position: absolute;
+    top: 62vh;
+    right: 10vw;
+    line-height: 2;
+}
+.t6-4 {
+    position: absolute;
+    top: 75vh;
+    right: 7.5vw;
+    line-height: 2;
+}
+.line6 {
+    border-top: 2px solid white;
+    width: 25vw;
+    height: 1vh;
+    position: absolute;
+    top: 76vh;
+    right: 10vw;
+}
+.t7 {
+    color: black;
+}
+.t7-1 {
+    position: absolute;
+    top: 6vh;
+    left: 4vw;
+    font-size: 60px;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 30vw;
+    height: 40vh;
+}
+.t7-2 {
+    position: absolute;
+    top: 21vh;
+    left: 12vw;
+}
+.t7-3 {
+    position: absolute;
+    top: 51vh;
+    left: 12vw;
+    line-height: 2;
+}
+.t7-4 {
+    position: absolute;
+    top: 69vh;
+    left: 12vw;
+    line-height: 2;
+}
+.line7 {
+    border-top: 2px solid black;
+    width: 33vw;
+    height: 1vh;
+    position: absolute;
+    top: 70vh;
+    left: 11.5vw;
+}
+.i7 {
+    position: absolute;
+    right:0vw ;
+    top: 0vh;
+    width: 50vw;
+    height: 100vh;
+}
+.img7 {
+    width: 50vw;
+    height: 100vh;
+}
+.nav>*::after {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    bottom: -1vh;
+    width: 0;
+    height: 1px;
+    background-color: white ;
+    transition: width 0.3s ease; /* 动画过渡效果 */
+}
+
+/* 鼠标悬停时展开下划线 */
+.nav>*:hover::after {
+    width: 100%;
+}

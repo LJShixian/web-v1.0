@@ -1,0 +1,161 @@
+.a {
+    position: absolute;
+   left: 5vw;
+}
+.nav>* {
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(242, 245, 247);
+    position: absolute;
+   top: 4vh;
+}
+.b {
+    position: absolute;
+    left: 20vw;
+}
+.c {
+    position: absolute;
+    left: 35vw;
+}
+.d {
+    position: absolute;
+    right: 5vw;
+}
+.e {
+    position: absolute;
+    left:50vw ;
+}
+.f {
+    position: absolute;
+    left:65vw ;
+}
+.c1 {
+    position: absolute;
+    top: 15vh;
+    left: 2vw;
+    width: 70vw;
+    height: 70vh;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 25px;
+
+}
+.car1 {
+ width: 70vw;
+ height: 70vh;
+ border-radius: 25px;
+ transition: 0.4s;
+}
+.car1:hover{
+      transform: scale(1.1);
+}
+.ctxt1 {
+    width: 20vw;
+    height: 70vh;
+    position: absolute;
+    right: 2vw;
+    top: 17vh;
+}
+.car2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    transition: 0.4s;
+    object-fit: cover;
+}
+.car2:hover {
+    transform: scale(1.1);
+}
+.c2 {
+    position: absolute;
+    top: 95vh;
+    left: 27vw;
+    width: 70vw;
+    height: 75vh;
+    border-radius: 25px;
+    display: inline-block;
+    overflow: hidden;
+    justify-content: center;
+}
+.ctxt2 {
+    width: 20vw;
+    height: 70vh;
+    position: absolute;
+    left: 7vw;
+    top: 100vh;
+}
+.c3 {
+    position: absolute;
+    top: 185vh;
+    left: 2vw;
+    width: 70vw;
+    height: 75vh;
+    border-radius: 25px;
+    display: inline-block;
+    overflow: hidden;
+    justify-content: center;
+}
+.car3 {
+    width: 70vw;
+    height: 75vh;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    transition: 0.4s;
+    object-fit: cover;
+}
+.car3:hover {
+    transform: scale(1.1);
+}
+.ctxt3 {
+    width: 20vw;
+    height: 70vh;
+    position: absolute;
+    right: 2vw;
+    top: 180vh;
+}
+.c4 {
+    position: absolute;
+    top: 270vh;
+    left: 27vw;
+    width: 70vw;
+    height: 75vh;
+    border-radius: 25px;
+    display: inline-block;
+    overflow: hidden;
+}
+.car4 {
+    width: 70vw;
+    height: 75vh;
+    border-radius: 25px;
+    transition: 0.4s;
+}
+.ctxt4 {
+    width: 20vw;
+    height: 70vh;
+    position: absolute;
+    left: 5vw;
+    top: 270vh;
+}
+.car4:hover {
+    transform: scale(1.1);
+    
+}
+.body {
+    background-color: whitesmoke;
+}
+.nav>*::after {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    bottom: -1vh;
+    width: 0;
+    height: 1px;
+    background-color: white ;
+    transition: width 0.3s ease; /* 动画过渡效果 */
+}
+
+/* 鼠标悬停时展开下划线 */
+.nav>*:hover::after {
+    width: 100%;
+}

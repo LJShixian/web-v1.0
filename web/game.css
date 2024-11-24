@@ -1,0 +1,504 @@
+.a {
+    position: absolute;
+   left: 5vw;
+}
+.nav>* {
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(242, 245, 247);
+    position: absolute;
+   top: 4vh;
+}
+.b {
+    position: absolute;
+    left: 20vw;
+}
+.c {
+    position: absolute;
+    left: 35vw;
+}
+.d {
+    position: absolute;
+    right: 5vw;
+}
+.e {
+    position: absolute;
+    left:50vw ;
+}
+.f {
+    position: absolute;
+    left:65vw ;
+}
+.red1 {
+    border-top: 10px solid red;
+    border-right: 10px solid red;
+    width: 38vw;
+    height: 70vh;
+    position: absolute;
+    top: 15vh;
+    left: 10vw;
+    border-top-right-radius: 20px;
+}
+.zise1 {
+    border-top: 10px solid purple;
+    border-right: 10px solid purple;
+    border-bottom: 10px solid purple;
+    width: 77vw;
+    height: 73vh;
+    position: absolute;
+    top: 90vh;
+    left: 10vw;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.green1 {
+    border-top: 10px solid black;
+    border-left: 10px solid black;
+    width: 38vw;
+    height: 70vh;
+    position: absolute;
+    top: 169vh;
+    right: 11vw;
+    border-top-left-radius: 20px;
+}
+.img1 {
+   
+    width: 36vw;
+    height: 45vh;
+    transition: 0.4s;
+   border-radius: 15px;
+}
+.img1:hover {
+    transform: scale(1);
+}
+.txt1 {
+    position: absolute;
+    top: 3vh;
+    left: 0vw;
+    width: 36vw;
+    height: 45vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.i1 {
+    display: inline-block;
+    overflow: hidden;
+    position: absolute;
+    top: 25vh;
+    left: 0vw;
+    width: 36vw;
+    height: 45vh;
+}
+.line1 {
+    border-left: 4px solid black;
+    height: 100px;
+    position: absolute;
+    top: 24vh;
+    left: 27vw;
+}
+.i2 {
+    width: 76vw;
+    height: 70vh;
+    position: absolute;
+    top: 93vh;
+    left: 10vw;
+}
+.img2 {
+object-fit: contain;
+width: 25%;
+position: absolute;
+top: 0vh;
+z-index: 100;
+}
+.name1 {
+ position: absolute;
+ left: 2.2vw;
+ top: 2vh;
+ font-size: larger;
+}
+.name11 {
+ position: absolute;
+ top: 6vh;
+ left: 2.2vw;
+ font-size: small;
+}
+.name21 {
+    position: absolute;
+ top: 6vh;
+ left: 4vw;
+ font-size: small;}
+.name2 {
+    position: absolute;
+    left: 4vw;
+    top: 2vh;
+    font-size: larger;
+}
+.name3 {
+    position: absolute;
+    left: 3vw;
+    top: 2vh;
+    font-size: larger;
+}
+.name31 {
+    position: absolute;
+    top: 6vh;
+    left: 3vw;
+    font-size: small;
+}
+.img22:hover {
+    color: white;
+    background-color: black;
+}
+.img6 {
+    object-fit: contain;
+    width: 25%;
+    position: absolute;
+    top: 0vh;
+    left: 20.5vw;
+    z-index: 100;
+}
+
+.img7 {
+    object-fit: contain;
+    width: 25%;
+    position: absolute;
+    top: 0vh;
+    left: 41vw;
+    z-index: 100;
+}
+@font-face {
+    font-family: "F1";
+    src: 
+         url("../font/Formula1-Display-Regular.woff2") format("woff2");
+}
+.body {
+ font-family: "F1" , sans-serif;
+}
+.txt2 {
+    position: absolute;
+    top: 16vh;
+    right: 11vw;
+    width: 38vw;
+    height: 66vh;
+
+}
+
+.back1 {
+    
+    position: absolute;
+    top: 16vh;
+    right: 11vw;
+    width: 38vw;
+    height: 70vh;
+    background: linear-gradient(
+    rgba(255, 255, 255, 1), 
+    rgba(255, 255, 255, 1)
+  ), url('../IMAGE/car1/Fc1.jpg');
+  background-size: cover;
+}
+.txt2 {
+    overflow-y: scroll;
+    line-height: 2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.i3  {
+    position: absolute;
+    top: 23vh;
+    left: 28vw;
+    width: 18vw;
+    height: 17vh;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.img3 {
+    width: 18vw;
+    height: 17vh;
+    transition: 0.4s;
+    border-radius: 15px;
+}
+.txt3 {
+    width: 36vw;
+    height: 45vh;
+    position: absolute;
+    top: 170vh;
+    right: -7vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.line2 {
+    border-left: 4px solid black;
+    height: 100px;
+    position: absolute;
+    top: 173vh;
+    right: 30vw;
+}
+.i4 {
+    position: absolute;
+    top: 173vh;
+    right: 30.5vw;
+    width: 18vw;
+    height: 17vh;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 0px;
+}
+.img4 {
+    width: 18vw;
+    height: 17vh;
+    transition: 0.4s;
+    border-radius: 0px;
+}
+.i5 {
+    display: inline-block;
+    overflow: hidden;
+    position: absolute;
+    top: 195vh;
+    right: 11.5vw;
+    width: 36vw;
+    height: 45vh;
+}
+.img5 {
+    width: 36vw;
+    height: 45vh;
+    transition: 0.4s;
+   border-radius: 15px;
+}
+.txt4 {
+    background-color: white;
+    position: absolute;
+    top: 171vh;
+    left: 10vw;
+    width: 38vw;
+    height: 69vh;
+  overflow-y: scroll;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 2;
+}
+.brown {
+    border-top:10px solid  ;
+    border-bottom: 10px solid;
+    border-left: 10px solid;
+    border-color: brown;
+    width: 77vw;
+    height: 73vh;
+    position: absolute;
+    top: 244vh;
+    left: 10vw;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.iwec {
+    width: 76vw;
+    height: 70vh;
+    position: absolute;
+    top: 1.5vh;
+    left: 1vw;
+    border-radius: 2px;
+}
+.wec11 {
+    width: 76vw;
+    height: 70vh;
+    border-radius: 2px;
+}
+.body {
+    background-color: white;
+}
+.img8 {
+  position: absolute;
+  object-fit: contain;
+  height: 15%;
+  left: 5.5vw;
+  top: 60vh;
+}
+.img9 {
+    position: absolute;
+    object-fit: contain;
+    height: 15%;
+    left: 26vw;
+    top: 60vh;
+}
+.img10 {
+    position: absolute;
+    object-fit: contain;
+    height: 15%;
+    left: 47vw;
+    top: 60vh;
+}
+.shan1 {
+  background-color: white;
+  width: 18.9vw;
+  height: 11vh;
+  position: absolute;
+  left: 0.1vw;
+  top: 50vh;
+
+}
+.shan2 {
+    background-color: white;
+    width: 18.9vw;
+    height: 11vh;
+    position: absolute;
+    left: 20.5vw;
+    top: 50vh;
+}
+.shan3 {
+    background-color: white;
+    width: 19vw;
+    height: 11vh;
+    position: absolute;
+    left: 41vw;
+    top: 50vh;
+}
+.shan1:hover {
+    color: white;
+    background-color: black;
+}
+.shan2:hover {
+    color: white;
+    background-color: black;
+}
+.shan3:hover {
+    color: white;
+    background-color: black;
+}
+.img11 {
+    object-fit: contain;
+    width: 15%;
+   position:absolute;
+   top: 93.1vh;
+   left: 70vw;
+}
+.img12 {
+    object-fit: contain;
+    width: 15%;
+   position:absolute;
+   top: 108.1vh;
+   left: 70vw;
+}
+.img13 {
+    object-fit: contain;
+    width: 15%;
+   position:absolute;
+   top: 123.1vh;
+   left: 70vw;
+}
+.q {
+    position: absolute;
+    top: 140vh;
+    left: 74.5vw;
+  font-size: 50px;
+  font-weight: 900;
+}
+.img14{
+object-fit: contain;
+width: 40%;
+position: absolute;
+top: 2vh;
+left: 1vw;
+}
+.img15 {
+    object-fit: contain;
+    width: 40%;
+    position: absolute;
+    top: 37vh;
+    left: 1vw;
+}
+.img16 {
+    object-fit: contain;
+    width: 40%;
+    position: absolute;
+    top: 2vh;
+    left: 32vw;
+}
+.img17 {
+    object-fit: contain;
+    width: 40%;
+    position: absolute;
+    top: 37vh;
+    left: 32vw;
+}
+.img18 {
+    width: 14vw;
+    height: 58.5vh;
+    position: absolute;
+    top: 2vh;
+    left: 63vw;
+}
+.w1 {
+    position: absolute;
+    top: 23vh;
+    left: 15vw;
+    width: 20vw;
+    height: 20vh;
+}
+.w2 {
+    position: absolute;
+    top: 23vh;
+    left: 45vw;
+}
+.w3 {
+    position: absolute;
+    top: 58vh;
+    left: 15vw;
+}
+.w4 {
+    position: absolute;
+    top: 58vh;
+    left: 45vw;
+}
+.m1 {
+    position: absolute;
+    top: 325vh;
+    left: 10vw;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 0.8;
+}
+.line5 {
+    border-top: 0.7vh solid black;
+    width: 8vw;
+    height: 1vh;
+    position: absolute;
+    top: 150.4vh;
+    left: 74.5vw;
+}
+.i20 {
+    position: absolute;
+    top: 340vh;
+    left: 10vw;
+    background-color: aqua;
+    width: 25vw;
+    height: 45vh;
+}
+.img20 {
+ object-fit: cover;
+ height: 100%;
+}
+.i21 {
+    position: absolute;
+    top: 340vh;
+    left: 48vw;
+    background-color: aqua;
+    width: 22vw;
+    height: 45vh;
+}
+.img21 {
+    object-fit: cover;
+    height: 100%;
+}
+.nav>*::after {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    bottom: -1vh;
+    width: 0;
+    height: 1px;
+    background-color: white ;
+    transition: width 0.3s ease; /* 动画过渡效果 */
+}
+
+/* 鼠标悬停时展开下划线 */
+.nav>*:hover::after {
+    width: 100%;
+}

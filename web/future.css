@@ -1,0 +1,168 @@
+.a {
+    position: absolute;
+   left: 5vw;
+}
+.nav>* {
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(242, 245, 247);
+    position: absolute;
+   top: 4vh;
+}
+.b {
+    position: absolute;
+    left: 20vw;
+}
+.c {
+    position: absolute;
+    left: 35vw;
+}
+.d {
+    position: absolute;
+    right: 5vw;
+}
+.e {
+    position: absolute;
+    left:50vw ;
+}
+.f {
+    position: absolute;
+    left:65vw ;
+}
+.i1 {
+    background-image: url(../IMAGE/future/L1.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+overflow: hidden;
+position: relative;
+width: 100%;
+height: 100vh;
+left: 0;
+background-size: cover;
+background-color: rgba(0,0,0,0.3);
+background-blend-mode: overlay;
+}
+.i2 {
+    background-image: url(../IMAGE/future/B1.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+overflow: hidden;
+position: relative;
+width: 100%;
+height: 100vh;
+left: 0;
+background-size: cover;
+background-color: rgba(0,0,0,0.4);
+background-blend-mode: overlay;
+}
+.i3 {
+    background-image: url(../IMAGE/future/zhineng1.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+overflow: hidden;
+position: relative;
+width: 100%;
+height: 100vh;
+left: 0;
+background-size: cover;
+background-color: rgba(0,0,0,0.4);
+background-blend-mode: overlay;
+}
+.i4 {
+    background-image: url(../IMAGE/future/R-C.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+overflow: hidden;
+position: relative;
+width: 100%;
+height: 100vh;
+left: 0;
+background-size: cover;
+background-color: rgba(0,0,0,0.4);
+background-blend-mode: overlay;
+}
+.t1 {
+    position: absolute;
+    left: 15vw;
+     top: 20vh;
+     color: white;
+     font-size: 30px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.t2 {
+    position: absolute;
+    left: 15vw;
+     top: 75vh;
+     color: white;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     line-height: 1.5;
+}
+.t3 {
+    position: absolute;
+    right: 15vw;
+     top: 120vh;
+     color: white;
+     font-size: 30px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.t4 {
+    position: absolute;
+    left: 15vw;
+     top: 175vh;
+     color: white;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     line-height: 1.5;
+}
+.t5 {
+    position: absolute;
+    left: 10vw;
+     top: 210vh;
+     color: white;
+     font-size: 30px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.t6 {
+    position: absolute;
+    left: 20vw;
+     top: 230vh;
+     color: white;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     line-height: 1.5;
+     width: 60vw;
+}
+.t7 {
+    position: absolute;
+    left: 10vw;
+     top: 310vh;
+     color: white;
+     font-size: 30px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.t8 {
+    position: absolute;
+    left: 20vw;
+     top: 350vh;
+     color: white;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     line-height: 1.5;
+     width: 60vw;
+}
+.nav>*::after {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    bottom: -1vh;
+    width: 0;
+    height: 1px;
+    background-color: white ;
+    transition: width 0.3s ease; /* 动画过渡效果 */
+}
+
+/* 鼠标悬停时展开下划线 */
+.nav>*:hover::after {
+    width: 100%;
+}
